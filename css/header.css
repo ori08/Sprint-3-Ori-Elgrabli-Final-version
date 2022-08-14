@@ -1,0 +1,64 @@
+.header-Conatiner {
+    width: 100vw;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+}
+
+.main-layout {
+    width: 91.18vw;
+    margin: 0 auto;
+    top: 40px;
+}
+
+.header-Conatiner .rtl {
+    direction: rtl;
+}
+
+.header-context {
+    height: 74px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-bar {
+    display: flex;
+
+}
+
+.logo {
+    justify-self: flex-start;
+}
+
+.nav-bar .nav-link {
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+}
+
+select {
+
+    align-self: flex-end;
+}
+
+@media (max-width: 350px) {
+
+h1{
+    font-size: 15px;
+}
+.header-Conatiner {
+    height: 70px;
+}
+
+
+
+
+}
